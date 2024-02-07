@@ -1,0 +1,7 @@
+[
+	{
+		"op" : "add",
+		"path" : "/scripts/-",
+		"value" : "/zb/researchTree/researchTreeLearnFlowerspring.lua"
+	}
+]

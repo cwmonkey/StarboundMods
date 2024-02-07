@@ -1,0 +1,12 @@
+{
+  "author" : "cwm",
+  "description" : "Allows you to learn the Spring Flower recipe from the FrackinUniverse Argriculture research tree.",
+  "friendlyName" : "[FU] Learn Springflower From Agriculture Research",
+  "name" : "learn_spring_flower_from_agriculture_fu",
+  "includes" : ["FrackinUniverse"],
+  "priority" : 9999,
+  "link" : "",
+  "steamContentId" : "",
+  "tags" : "",
+  "version" : "1.0"
+}

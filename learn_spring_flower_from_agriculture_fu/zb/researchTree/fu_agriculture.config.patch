@@ -1,0 +1,7 @@
+[
+	{
+		"op" : "add",
+		"path" : "/researchTree/fu_agriculture/crops1/unlocks/-",
+		"value" : "flowerspring"
+	}
+]
