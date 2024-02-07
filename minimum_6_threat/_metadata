@@ -1,0 +1,12 @@
+{
+  "author" : "cwm",
+  "description" : "Changes the minimum threat level of vanilla planets to 6.",
+  "friendlyName" : "Minimum 6 Threat Level [Vanilla]",
+  "includes" : [],
+  "name" : "minimum_6_threat",
+  "link" : "",
+  "steamContentId" : "",
+  "tags" : "",
+  "version" : "1.0",
+  "priority" : 9999
+}

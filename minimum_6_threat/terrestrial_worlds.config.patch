@@ -1,0 +1,97 @@
+[
+  {
+    "op": "replace",
+    "path": "/planetTypes/garden/threatRange",
+    "value": [6, 6]
+  },
+  {
+    "op": "replace",
+    "path": "/planetTypes/forest/threatRange",
+    "value": [6, 6]
+  },
+  {
+    "op": "replace",
+    "path": "/planetTypes/desert/threatRange",
+    "value": [6, 6]
+  },
+  {
+    "op": "replace",
+    "path": "/planetTypes/ocean/threatRange",
+    "value": [6, 6]
+  },
+  {
+    "op": "replace",
+    "path": "/planetTypes/savannah/threatRange",
+    "value": [6, 6]
+  },
+  {
+    "op": "replace",
+    "path": "/planetTypes/snow/threatRange",
+    "value": [6, 6]
+  },
+  {
+    "op": "replace",
+    "path": "/planetTypes/jungle/threatRange",
+    "value": [6, 6]
+  },
+  {
+    "op": "replace",
+    "path": "/planetTypes/toxic/threatRange",
+    "value": [6, 6]
+  },
+  {
+    "op": "replace",
+    "path": "/planetTypes/alien/threatRange",
+    "value": [6, 6]
+  },
+  {
+    "op": "replace",
+    "path": "/planetTypes/arctic/threatRange",
+    "value": [6, 6]
+  },
+  {
+    "op": "replace",
+    "path": "/planetTypes/tundra/threatRange",
+    "value": [6, 6]
+  },
+  {
+    "op": "replace",
+    "path": "/planetTypes/midnight/threatRange",
+    "value": [6, 6]
+  },
+  {
+    "op": "replace",
+    "path": "/planetTypes/volcanic/threatRange",
+    "value": [6, 6]
+  },
+  {
+    "op": "replace",
+    "path": "/planetTypes/magma/threatRange",
+    "value": [6, 6]
+  },
+  {
+    "op": "replace",
+    "path": "/planetTypes/scorchedcity/threatRange",
+    "value": [6, 6]
+  },
+  {
+    "op": "replace",
+    "path": "/planetTypes/moon/threatRange",
+    "value": [6, 6]
+  },
+  {
+    "op": "replace",
+    "path": "/planetTypes/barren/threatRange",
+    "value": [6, 6]
+  },
+  {
+    "op": "replace",
+    "path": "/planetTypes/tentacle/threatRange",
+    "value": [6, 6]
+  },
+  {
+    "op": "replace",
+    "path": "/planetTypes/cyberspace/threatRange",
+    "value": [6, 6]
+  }
+]
