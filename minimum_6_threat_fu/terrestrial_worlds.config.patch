@@ -1,0 +1,237 @@
+[
+  {
+    "op": "replace",
+    "path": "/planetTypes/strangesea/threatRange/0",
+    "value": 6
+  },
+  {
+    "op": "replace",
+    "path": "/planetTypes/arboreal/threatRange",
+    "value": [6, 6]
+  },
+  {
+    "op": "replace",
+    "path": "/planetTypes/barren/threatRange/0",
+    "value": 6
+  },
+  {
+    "op": "replace",
+    "path": "/planetTypes/arboreal2/threatRange",
+    "value": [6, 6]
+  },
+  {
+    "op": "replace",
+    "path": "/planetTypes/arborealdark/threatRange",
+    "value": [6, 6]
+  },
+  {
+    "op": "replace",
+    "path": "/planetTypes/atropus/threatRange/0",
+    "value": 6
+  },
+  {
+    "op": "replace",
+    "path": "/planetTypes/atropusdark/threatRange/0",
+    "value": 6
+  },
+  {
+    "op": "replace",
+    "path": "/planetTypes/bloodstone/threatRange/0",
+    "value": 6
+  },
+  {
+    "op": "replace",
+    "path": "/planetTypes/bloodstonesea/threatRange/0",
+    "value": 6
+  },
+  {
+    "op": "replace",
+    "path": "/planetTypes/metallicmoon/threatRange/0",
+    "value": 6
+  },
+  {
+    "op": "replace",
+    "path": "/planetTypes/bog/threatRange",
+    "value": [6, 6]
+  },
+  {
+    "op": "replace",
+    "path": "/planetTypes/chromatic/threatRange",
+    "value": [6, 6]
+  },
+  {
+    "op": "replace",
+    "path": "/planetTypes/desertwastes/threatRange",
+    "value": [6, 6]
+  },
+  {
+    "op": "replace",
+    "path": "/planetTypes/desertwastesdark/threatRange",
+    "value": [6, 6]
+  },
+  {
+    "op": "replace",
+    "path": "/planetTypes/frozenvolcanic/threatRange",
+    "value": [6, 6]
+  },
+  {
+    "op": "replace",
+    "path": "/planetTypes/arcticdark/threatRange",
+    "value": [6, 6]
+  },
+  {
+    "op": "replace",
+    "path": "/planetTypes/snowdark/threatRange",
+    "value": [6, 6]
+  },
+  {
+    "op": "replace",
+    "path": "/planetTypes/tundradark/threatRange",
+    "value": [6, 6]
+  },
+  {
+    "op": "replace",
+    "path": "/planetTypes/fungus/threatRange",
+    "value": [6, 6]
+  },
+  {
+    "op": "replace",
+    "path": "/planetTypes/icewaste/threatRange/0",
+    "value": 6
+  },
+  {
+    "op": "replace",
+    "path": "/planetTypes/icewastedark/threatRange/0",
+    "value": 6
+  },
+  {
+    "op": "replace",
+    "path": "/planetTypes/infernus/threatRange/0",
+    "value": 6
+  },
+  {
+    "op": "replace",
+    "path": "/planetTypes/infernusdark/threatRange/0",
+    "value": 6
+  },
+  {
+    "op": "replace",
+    "path": "/planetTypes/magmadark/threatRange/0",
+    "value": 6
+  },
+  {
+    "op": "replace",
+    "path": "/planetTypes/irradiated/threatRange",
+    "value": [6, 6]
+  },
+  {
+    "op": "replace",
+    "path": "/planetTypes/lightless/threatRange",
+    "value": [6, 6]
+  },
+  {
+    "op": "replace",
+    "path": "/planetTypes/mountainous/threatRange",
+    "value": [6, 6]
+  },
+  {
+    "op": "replace",
+    "path": "/planetTypes/nitrogensea/threatRange",
+    "value": [6, 6]
+  },
+  {
+    "op": "replace",
+    "path": "/planetTypes/penumbra/threatRange",
+    "value": [6, 6]
+  },
+  {
+    "op": "replace",
+    "path": "/planetTypes/protoworld/threatRange",
+    "value": [6, 6]
+  },
+  {
+    "op": "replace",
+    "path": "/planetTypes/protoworlddark/threatRange",
+    "value": [6, 6]
+  },
+  {
+    "op": "replace",
+    "path": "/planetTypes/slimeworld/threatRange",
+    "value": [6, 6]
+  },
+  {
+    "op": "replace",
+    "path": "/planetTypes/sulphuric/threatRange",
+    "value": [6, 6]
+  },
+  {
+    "op": "replace",
+    "path": "/planetTypes/sulphuricdark/threatRange/0",
+    "value": 6
+  },
+  {
+    "op": "replace",
+    "path": "/planetTypes/sulphuricocean/threatRange",
+    "value": [6, 6]
+  },
+  {
+    "op": "replace",
+    "path": "/planetTypes/tarball/threatRange",
+    "value": [6, 6]
+  },
+  {
+    "op": "replace",
+    "path": "/planetTypes/tidewater/threatRange",
+    "value": [6, 6]
+  },
+  {
+    "op": "replace",
+    "path": "/planetTypes/thickjungle/threatRange",
+    "value": [6, 6]
+  },
+  {
+    "op": "replace",
+    "path": "/planetTypes/urbanwasteland/threatRange",
+    "value": [6, 6]
+  },
+  {
+    "op": "replace",
+    "path": "/planetTypes/urbanwasteland2/threatRange",
+    "value": [6, 6]
+  },
+  {
+    "op": "replace",
+    "path": "/planetTypes/aethersea/threatRange/0",
+    "value": 6
+  },
+  {
+    "op": "replace",
+    "path": "/planetTypes/astral/threatRange/0",
+    "value": 6
+  },
+  {
+    "op": "replace",
+    "path": "/planetTypes/fugasgiant/threatRange/0",
+    "value": 6
+  },
+  {
+    "op": "replace",
+    "path": "/planetTypes/fugasgiant2/threatRange/0",
+    "value": 6
+  },
+  {
+    "op": "replace",
+    "path": "/planetTypes/fugasgiant3/threatRange/0",
+    "value": 6
+  },
+  {
+    "op": "replace",
+    "path": "/planetTypes/fugasgiant4/threatRange/0",
+    "value": 6
+  },
+  {
+    "op": "replace",
+    "path": "/planetTypes/fugasgiant5/threatRange/0",
+    "value": 6
+  }
+]
