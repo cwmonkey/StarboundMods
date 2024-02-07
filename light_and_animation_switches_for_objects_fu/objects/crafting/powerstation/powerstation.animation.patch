@@ -1,0 +1,33 @@
+[
+	{
+		"op": "remove",
+		"path": "/animatedParts/stateTypes/stage/states/powerstation/properties"
+	},
+	{
+		"op": "add",
+		"path": "/animatedParts/stateTypes/stage/states/powerstationidle",
+		"value": {
+			"frames" : 1,
+			"cycle" : 1
+		}
+	},
+	{
+		"op": "add",
+		"path": "/animatedParts/parts/chassis/partStates/stage/powerstationidle",
+		"value": {
+			"properties" : {
+				"image" : "powerstation2.png:<color>.<frame>"
+			}
+		}
+	},
+	{
+		"op": "add",
+		"path": "/animatedParts/parts/fire/partStates/stage/powerstationidle",
+		"value": {
+			"properties" : {
+				"image" : "powerstation2.png:<color>.<frame>",
+				"fullbright" : false
+			}
+		}
+	}
+]

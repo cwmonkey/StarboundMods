@@ -1,0 +1,56 @@
+[
+	{
+		"op": "add",
+		"path": "/animatedParts/stateTypes/furnaceState/states/off",
+		"value": {
+			"frames" : 1,
+			"cycle" : 1
+		}
+	},
+	{
+		"op": "add",
+		"path": "/animatedParts/parts/fu_blastfurnace/partStates/furnaceState/off",
+		"value": {
+			"properties" : {
+				"image" : "<partImage>:<color>.idle",
+				"fullbright" : false
+			}
+		}
+	},
+	{
+		"op": "add",
+		"path": "/animatedParts/parts/fu_blastfurnacefullbright/partStates/furnaceState/off",
+		"value": {
+			"properties" : {
+				"image" : "<partImage>:<color>.idle"
+			}
+		}
+	},
+	{
+		"op": "add",
+		"path": "/animatedParts/stateTypes/furnaceState/states/on",
+		"value": {
+			"frames" : 1,
+			"cycle" : 1
+		}
+	},
+	{
+		"op": "add",
+		"path": "/animatedParts/parts/fu_blastfurnace/partStates/furnaceState/on",
+		"value": {
+			"properties" : {
+				"image" : "<partImage>:<color>.idle",
+				"fullbright" : true
+			}
+		}
+	},
+	{
+		"op": "add",
+		"path": "/animatedParts/parts/fu_blastfurnacefullbright/partStates/furnaceState/on",
+		"value": {
+			"properties" : {
+				"image" : "<partImage>:<color>.idle"
+			}
+		}
+	}
+]

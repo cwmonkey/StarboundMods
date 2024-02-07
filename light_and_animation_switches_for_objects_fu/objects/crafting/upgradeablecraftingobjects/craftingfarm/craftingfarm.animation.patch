@@ -1,0 +1,34 @@
+[
+	{
+		"op": "remove",
+		"path": "/animatedParts/stateTypes/stage/states/craftingfarm2/properties"
+	},
+	{
+		"op": "add",
+		"path": "/animatedParts/stateTypes/stage/states/craftingfarm2idle",
+		"value": {
+			"frames" : 1,
+			"cycle" : 1,
+			"mode" : "loop"
+		}
+	},
+	{
+		"op": "add",
+		"path": "/animatedParts/parts/chassis/partStates/stage/craftingfarm2idle",
+		"value": {
+			"properties" : {
+				"image" : "craftingfarm2.png:<color>.<frame>"
+			}
+		}
+	},
+	{
+		"op": "add",
+		"path": "/animatedParts/parts/lights/partStates/stage/craftingfarm2idle",
+		"value": {
+			"properties" : {
+				"image" : "craftingfarm2.png:<color>.<frame>",
+				"fullbright" : false
+			}
+		}
+	}
+]

@@ -1,0 +1,33 @@
+[
+	{
+		"op": "remove",
+		"path": "/animatedParts/stateTypes/stage/states/nanofabricator/properties"
+	},
+	{
+		"op": "add",
+		"path": "/animatedParts/stateTypes/stage/states/nanofabricatoridle",
+		"value": {
+			"frames" : 1,
+			"cycle" : 1
+		}
+	},
+	{
+		"op": "add",
+		"path": "/animatedParts/parts/chassis/partStates/stage/nanofabricatoridle",
+		"value": {
+			"properties" : {
+				"image" : "nanofabricator3.png:<color>.<frame>"
+			}
+		}
+	},
+	{
+		"op": "add",
+		"path": "/animatedParts/parts/fire/partStates/stage/nanofabricatoridle",
+		"value": {
+			"properties" : {
+				"image" : "nanofabricator3.png:<color>.<frame>",
+				"fullbright" : false
+			}
+		}
+	}
+]

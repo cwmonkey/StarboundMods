@@ -1,0 +1,89 @@
+[
+	{
+		"op": "add",
+		"path": "/inputNodes/-",
+		"value": [2, 0]
+	},
+	{
+		"op": "add",
+		"path": "/lightColor",
+		"value": [0, 0, 0]
+	},
+	{
+		"op": "add",
+		"path": "/defaultLightInput",
+		"value": 1
+	},
+	{
+		"op": "add",
+		"path": "/scripts/-",
+		"value": "/objects/wired/light/lightinteractive.lua"
+	},
+	{
+		"op": "add",
+		"path": "/scriptDelta",
+		"value": 60
+	},
+	{
+		"op": "add",
+		"path": "/animation",
+		"value": "/objects/wired/light/lighttogglebgfullbright.animation"
+	},
+	{
+		"op": "add",
+		"path": "/animationParts",
+		"value": {
+			"bg" : "fuwallsafeanim.png",
+			"fg" : "fuwallsafeanimlit.png"
+		}
+	},
+	{
+		"op": "add",
+		"path": "/animationPosition",
+		"value": [0, 0]
+	},
+	{
+		"op": "remove",
+		"path": "/orientations/0/imageLayers"
+	},
+	{
+		"op": "remove",
+		"path": "/orientations/1/imageLayers"
+	},
+	{
+		"op": "add",
+		"path": "/orientations/0/image",
+		"value": "fuwallsafeanim.png:<color>.<frame>"
+	},
+	{
+		"op": "add",
+		"path": "/orientations/0/animationParts",
+		"value": {
+			"bg" : "fuwallsafeanim.png",
+			"fg" : "fuwallsafeanimlit.png"
+		}
+	},
+	{
+		"op": "add",
+		"path": "/orientations/0/animationPosition",
+		"value": [0, 0]
+	},
+	{
+		"op": "add",
+		"path": "/orientations/1/image",
+		"value": "fuwallsafeanim.png:<color>.<frame>"
+	},
+	{
+		"op": "add",
+		"path": "/orientations/1/animationParts",
+		"value": {
+			"bg" : "fuwallsafeanim.png",
+			"fg" : "fuwallsafeanimlit.png"
+		}
+	},
+	{
+		"op": "add",
+		"path": "/orientations/1/animationPosition",
+		"value": [0, 0]
+	}
+]

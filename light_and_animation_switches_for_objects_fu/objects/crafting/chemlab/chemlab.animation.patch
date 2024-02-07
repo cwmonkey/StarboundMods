@@ -1,0 +1,33 @@
+[
+	{
+		"op": "remove",
+		"path": "/animatedParts/stateTypes/stage/states/biochemlab/properties"
+	},
+	{
+		"op": "add",
+		"path": "/animatedParts/stateTypes/stage/states/biochemlabidle",
+		"value": {
+			"frames" : 1,
+			"cycle" : 1
+		}
+	},
+	{
+		"op": "add",
+		"path": "/animatedParts/parts/chassis/partStates/stage/biochemlabidle",
+		"value": {
+			"properties" : {
+				"image" : "chemlab3.png:<color>.<frame>"
+			}
+		}
+	},
+	{
+		"op": "add",
+		"path": "/animatedParts/parts/fire/partStates/stage/biochemlabidle",
+		"value": {
+			"properties" : {
+				"image" : "chemlab3.png:<color>.<frame>",
+				"fullbright" : false
+			}
+		}
+	}
+]

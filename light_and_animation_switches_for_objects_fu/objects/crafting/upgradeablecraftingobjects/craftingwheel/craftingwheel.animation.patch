@@ -1,0 +1,29 @@
+[
+	{
+		"op": "add",
+		"path": "/animatedParts/stateTypes/stage/states/clothingfabricatoridle",
+		"value": {
+			"frames" : 1,
+			"cycle" : 1
+		}
+	},
+	{
+		"op": "add",
+		"path": "/animatedParts/parts/chassis/partStates/stage/clothingfabricatoridle",
+		"value": {
+			"properties" : {
+				"image" : "craftingwheel3.png:<color>.<frame>"
+			}
+		}
+	},
+	{
+		"op": "add",
+		"path": "/animatedParts/parts/fire/partStates/stage/clothingfabricatoridle",
+		"value": {
+			"properties" : {
+				"image" : "craftingwheel3.png:<color>.<frame>",
+				"fullbright" : false
+			}
+		}
+	}
+]

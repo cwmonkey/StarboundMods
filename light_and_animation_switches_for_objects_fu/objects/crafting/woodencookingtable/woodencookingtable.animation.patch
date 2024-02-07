@@ -1,0 +1,41 @@
+[
+	{
+		"op": "add",
+		"path": "/animatedParts/parts/lights/partStates/stage/upgraded/properties",
+		"value": {
+			"image": "tier2cookingtableanim.png:<color>.<frame>"
+		}
+	},
+	{
+		"op": "replace",
+		"path": "/animatedParts/parts/chassis/partStates/stage/upgraded/properties/image",
+		"value": "tier2cookingtableanimlit.png:<color>.<frame>"
+	},
+	{
+		"op": "add",
+		"path": "/animatedParts/stateTypes/stage/states/upgradedidle",
+		"value": {
+			"frames" : 1,
+			"cycle" : 1
+		}
+	},
+	{
+		"op": "add",
+		"path": "/animatedParts/parts/chassis/partStates/stage/upgradedidle",
+		"value": {
+			"properties" : {
+				"image" : "tier2cookingtableanim.png:<color>.<frame>"
+			}
+		}
+	},
+	{
+		"op": "add",
+		"path": "/animatedParts/parts/lights/partStates/stage/upgradedidle",
+		"value": {
+			"properties" : {
+				"image" : "tier2cookingtableanim.png:<color>.<frame>",
+				"fullbright" : false
+			}
+		}
+	}
+]

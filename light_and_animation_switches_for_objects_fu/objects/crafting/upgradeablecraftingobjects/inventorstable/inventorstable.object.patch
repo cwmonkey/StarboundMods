@@ -1,0 +1,29 @@
+[
+	{
+		"op": "add",
+		"path": "/inputNodes",
+		"value": [ [0, 0] ]
+	},
+	{
+		"op": "add",
+		"path": "/scripts/-",
+		"value": "/objects/wired/light/lightinteractive.lua"
+	},
+	{
+		"op": "add",
+		"path": "/upgradeStages/-",
+		"value": {
+			"animationState" : "inventorstable3idle"
+		}
+	},
+	{
+		"op": "add",
+		"path": "/upgradeStages/2/idleState",
+		"value": "inventorstable3idle"
+	},
+	{
+		"op": "add",
+		"path": "/upgradeStages/2/lightColor",
+		"value": [76, 125, 153]
+	}
+]

@@ -1,0 +1,33 @@
+[
+	{
+		"op": "remove",
+		"path": "/animatedParts/stateTypes/stage/states/matterassembler/properties"
+	},
+	{
+		"op": "add",
+		"path": "/animatedParts/stateTypes/stage/states/matterassembleridle",
+		"value": {
+			"frames" : 1,
+			"cycle" : 1
+		}
+	},
+	{
+		"op": "add",
+		"path": "/animatedParts/parts/chassis/partStates/stage/matterassembleridle",
+		"value": {
+			"properties" : {
+				"image" : "prototyper3.png:<color>.<frame>"
+			}
+		}
+	},
+	{
+		"op": "add",
+		"path": "/animatedParts/parts/fire/partStates/stage/matterassembleridle",
+		"value": {
+			"properties" : {
+				"image" : "prototyper3lit.png:<color>.<frame>",
+				"fullbright" : false
+			}
+		}
+	}
+]

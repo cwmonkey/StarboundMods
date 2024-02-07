@@ -1,0 +1,32 @@
+[
+	{
+		"op": "add",
+		"path": "/inputNodes",
+		"value": [ [0, 0] ]
+	},
+	{
+		"op": "add",
+		"path": "/scripts/-",
+		"value": "/objects/wired/light/lightinteractive.lua"
+	},
+	{
+		"op": "add",
+		"path": "/animationStateType",
+		"value": "powerState"
+	},
+	{
+		"op": "add",
+		"path": "/animationStateOn",
+		"value": "off"
+	},
+	{
+		"op": "add",
+		"path": "/animationStateIdle",
+		"value": "off"
+	},
+	{
+		"op": "add",
+		"path": "/animationStateOff",
+		"value": "offDark"
+	}
+]

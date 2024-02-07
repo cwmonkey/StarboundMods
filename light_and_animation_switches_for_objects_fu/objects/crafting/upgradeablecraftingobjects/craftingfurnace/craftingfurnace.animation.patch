@@ -1,0 +1,34 @@
+[
+	{
+		"op": "remove",
+		"path": "/animatedParts/stateTypes/stage/states/fissionfurnace/properties"
+	},
+	{
+		"op": "add",
+		"path": "/animatedParts/stateTypes/stage/states/fissionfurnaceidle",
+		"value": {
+			"frames" : 1,
+			"cycle" : 1,
+			"mode" : "loop"
+		}
+	},
+	{
+		"op": "add",
+		"path": "/animatedParts/parts/chassis/partStates/stage/fissionfurnaceidle",
+		"value": {
+			"properties" : {
+				"image" : "craftingfurnace4.png:<color>.<frame>"
+			}
+		}
+	},
+	{
+		"op": "add",
+		"path": "/animatedParts/parts/fire/partStates/stage/fissionfurnaceidle",
+		"value": {
+			"properties" : {
+				"image" : "craftingfurnace4.png:<color>.<frame>",
+				"fullbright" : false
+			}
+		}
+	}
+]

@@ -1,0 +1,30 @@
+[
+	{
+		"op": "add",
+		"path": "/animatedParts/stateTypes/powerState/states/offDark",
+		"value": {
+			"frames" : 1,
+			"cycle" : 1
+		}
+	},
+	{
+		"op": "add",
+		"path": "/animatedParts/parts/aex/partStates/powerState/offDark",
+		"value": {
+			"properties" : {
+				"image" : "aex.png:off.<frame>",
+				"fullbright" : false
+			}
+		}
+	},
+	{
+		"op": "add",
+		"path": "/animatedParts/parts/aexlit/partStates/powerState/offDark",
+		"value": {
+			"properties" : {
+				"image" : "aex.png:off.<frame>",
+				"fullbright" : false
+			}
+		}
+	}
+]

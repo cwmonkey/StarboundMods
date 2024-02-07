@@ -1,0 +1,100 @@
+[
+	{
+		"op": "add",
+		"path": "/inputNodes",
+		"value": [ [0, 0] ]
+	},
+	{
+		"op": "add",
+		"path": "/lightColor",
+		"value": [76, 125, 153]
+	},
+	{
+		"op": "add",
+		"path": "/scripts",
+		"value": ["/objects/wired/light/lightinteractive.lua"]
+	},
+	{
+		"op": "add",
+		"path": "/scriptDelta",
+		"value": 60
+	},
+	{
+		"op": "add",
+		"path": "/animation",
+		"value": "/objects/crafting/wiringstation/wiringstation.animation"
+	},
+	{
+		"op": "add",
+		"path": "/animationParts",
+		"value": {
+			"bg" : "wiringstation.png",
+			"fg" : "wiringstationlit.png"
+		}
+	},
+	{
+		"op": "add",
+		"path": "/animationPosition",
+		"value": [-16, 0]
+	},
+	{
+		"op": "remove",
+		"path": "/orientations/0/imageLayers"
+	},
+	{
+		"op": "remove",
+		"path": "/orientations/0/frames"
+	},
+	{
+		"op": "remove",
+		"path": "/orientations/0/animationCycle"
+	},
+	{
+		"op": "remove",
+		"path": "/orientations/1/imageLayers"
+	},
+	{
+		"op": "remove",
+		"path": "/orientations/1/frames"
+	},
+	{
+		"op": "remove",
+		"path": "/orientations/1/animationCycle"
+	},
+	{
+		"op": "add",
+		"path": "/orientations/0/image",
+		"value": "wiringstation.png:<color>.<frame>"
+	},
+	{
+		"op": "add",
+		"path": "/orientations/0/animationParts",
+		"value": {
+			"bg" : "wiringstation.png",
+			"fg" : "wiringstationlit.png"
+		}
+	},
+	{
+		"op": "add",
+		"path": "/orientations/0/animationPosition",
+		"value": [-16, 0]
+	},
+	{
+		"op": "add",
+		"path": "/orientations/1/image",
+		"value": "wiringstation.png:<color>.<frame>"
+	},
+	{
+		"op": "add",
+		"path": "/orientations/1/animationParts",
+		"value": {
+			"bg" : "wiringstation.png",
+			"fg" : "wiringstationlit.png"
+		}
+	},
+	{
+		"op": "add",
+		"path": "/orientations/1/animationPosition",
+		"value": [-16, 0]
+	}
+]

@@ -1,0 +1,33 @@
+[
+	{
+		"op": "remove",
+		"path": "/animatedParts/stateTypes/stage/states/designlab/properties"
+	},
+	{
+		"op": "add",
+		"path": "/animatedParts/stateTypes/stage/states/designlabidle",
+		"value": {
+			"frames" : 1,
+			"cycle" : 1
+		}
+	},
+	{
+		"op": "add",
+		"path": "/animatedParts/parts/chassis/partStates/stage/designlabidle",
+		"value": {
+			"properties" : {
+				"image" : "designlab3.png:<color>.<frame>"
+			}
+		}
+	},
+	{
+		"op": "add",
+		"path": "/animatedParts/parts/fire/partStates/stage/designlabidle",
+		"value": {
+			"properties" : {
+				"image" : "designlab3.png:<color>.<frame>",
+				"fullbright" : false
+			}
+		}
+	}
+]

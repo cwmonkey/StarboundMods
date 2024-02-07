@@ -1,0 +1,34 @@
+[
+	{
+		"op": "remove",
+		"path": "/animatedParts/stateTypes/stage/states/armory/properties"
+	},
+	{
+		"op": "add",
+		"path": "/animatedParts/stateTypes/stage/states/armoryidle",
+		"value": {
+			"frames" : 1,
+			"cycle" : 1,
+			"mode" : "loop"
+		}
+	},
+	{
+		"op": "add",
+		"path": "/animatedParts/parts/chassis/partStates/stage/armoryidle",
+		"value": {
+			"properties" : {
+				"image" : "armory3.png:<color>.<frame>"
+			}
+		}
+	},
+	{
+		"op": "add",
+		"path": "/animatedParts/parts/fire/partStates/stage/armoryidle",
+		"value": {
+			"properties" : {
+				"image" : "armory3.png:<color>.<frame>",
+				"fullbright" : false
+			}
+		}
+	}
+]

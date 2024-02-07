@@ -1,0 +1,27 @@
+[
+	{
+		"op": "add",
+		"path": "/inputNodes",
+		"value": [ [0, 0] ]
+	},
+	{
+		"op": "add",
+		"path": "/lightColor",
+		"value": [0, 0, 0]
+	},
+	{
+		"op": "add",
+		"path": "/upgradeStages/1/lightColor",
+		"value": [127, 72, 39]
+	},
+	{
+		"op": "add",
+		"path": "/scripts/-",
+		"value": "/objects/wired/light/lightinteractive.lua"
+	},
+	{
+		"op": "add",
+		"path": "/upgradeStages/1/idleState",
+		"value": "upgradedidle"
+	}
+]

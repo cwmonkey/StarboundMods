@@ -1,0 +1,34 @@
+[
+	{
+		"op": "remove",
+		"path": "/animatedParts/stateTypes/stage/states/inventorstable3/properties"
+	},
+	{
+		"op": "add",
+		"path": "/animatedParts/stateTypes/stage/states/inventorstable3idle",
+		"value": {
+			"frames" : 1,
+			"cycle" : 1,
+			"mode" : "loop"
+		}
+	},
+	{
+		"op": "add",
+		"path": "/animatedParts/parts/chassis/partStates/stage/inventorstable3idle",
+		"value": {
+			"properties" : {
+				"image" : "inventorstable3.png:<color>.<frame>"
+			}
+		}
+	},
+	{
+		"op": "add",
+		"path": "/animatedParts/parts/light/partStates/stage/inventorstable3idle",
+		"value": {
+			"properties" : {
+				"image" : "inventorstable3.png:<color>.<frame>",
+				"fullbright" : false
+			}
+		}
+	}
+]

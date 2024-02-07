@@ -1,0 +1,12 @@
+{
+  "author" : "cwm",
+  "description" : "Allows you to turn off lights and animations on many objects.",
+  "friendlyName" : "[FU] Light/animation switches on objects.",
+  "name" : "light_and_animation_switches_for_objects_fu",
+  "includes" : ["FrackinUniverse"],
+  "priority" : 9999,
+  "link" : "",
+  "steamContentId" : "",
+  "tags" : "",
+  "version" : "1.0"
+}

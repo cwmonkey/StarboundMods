@@ -1,0 +1,57 @@
+[
+	{
+		"op": "add",
+		"path": "/inputNodes",
+		"value": [ [0, 0] ]
+	},
+	{
+		"op": "add",
+		"path": "/scripts/-",
+		"value": "/objects/wired/light/lightinteractive.lua"
+	},
+	{
+		"op": "add",
+		"path": "/scriptDelta",
+		"value": 60
+	},
+	{
+		"op": "add",
+		"path": "/animation",
+		"value": "/objects/wired/light/lighttogglebgfullbright.animation"
+	},
+	{
+		"op": "add",
+		"path": "/animationParts",
+		"value": {
+			"bg" : "futeleporter2anim.png",
+			"fg" : "futeleporter2animlit.png"
+		}
+	},
+	{
+		"op": "add",
+		"path": "/animationPosition",
+		"value": [0, 0]
+	},
+	{
+		"op": "remove",
+		"path": "/orientations/0/imageLayers"
+	},
+	{
+		"op": "add",
+		"path": "/orientations/0/image",
+		"value": "futeleporter2anim.png:<color>.<frame>"
+	},
+	{
+		"op": "add",
+		"path": "/orientations/0/animationParts",
+		"value": {
+			"bg" : "futeleporter2anim.png",
+			"fg" : "futeleporter2animlit.png"
+		}
+	},
+	{
+		"op": "add",
+		"path": "/orientations/0/animationPosition",
+		"value": [-16, 0]
+	}
+]
