@@ -1,0 +1,12 @@
+{
+  "author" : "cwm",
+  "description" : "Allows lower level monster bones to be dropped on higher threat planets.\n\nThis is useful if you start out on a higher threat planet but still wish to craft all the Avikan stuff.\n\nRequires the Elithian Races Mod.",
+  "friendlyName" : "Drop Lower Threat Avikan Bones on Higher Threat Planets",
+  "link" : "",
+  "name" : "avikan_hunting_drop_low_bones",
+  "priority" : 9999,
+  "includes" : ["Elithian_Races_Mod"],
+  "steamContentId" : "",
+  "tags" : "Mechanics",
+  "version" : "1.0"
+}
