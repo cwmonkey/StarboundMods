@@ -1,0 +1,11 @@
+{
+  "author" : "cwm",
+  "description" : "Changes starter planet to a large wasteland.\n\nNote that the starter planet will NOT contain the cave, etc. Progress will be much more difficult (maybe impossible!)",
+  "friendlyName" : "Change Starter Planet: [FU] Wasteland (Large)",
+  "includes" : [],
+  "name" : "change_starter_planet_fu_urbanwasteland_large",
+  "link" : "",
+  "steamContentId" : "",
+  "tags" : "",
+  "version" : "1.0"
+}

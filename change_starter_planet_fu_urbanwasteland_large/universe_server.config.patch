@@ -1,0 +1,22 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/findStarterWorldParameters/starterWorld/terrestrialBiome",
+      "inverse": false
+    },
+    {
+      "op": "replace",
+      "path": "/findStarterWorldParameters/starterWorld",
+      "value": {
+        "terrestrialBiome" : "urbanwasteland",
+        "terrestrialSize" : "large"
+      }
+    },
+    {
+      "op": "replace",
+      "path": "/findStarterWorldParameters/requiredSystemWorlds",
+      "value": []
+    }
+  ]
+]
