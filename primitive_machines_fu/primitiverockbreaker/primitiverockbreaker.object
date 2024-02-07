@@ -1,0 +1,57 @@
+{
+  "objectName" : "primitiverockbreaker",
+  "colonyTags" : [ "science", "machines" ],
+  "printable" : false,
+  "rarity" : "common",
+  "description" : "Slowly breaks up rocky materials into useful items. User must be present.",
+  "shortdescription" : "^cyan;Primitive Rock Breaker^reset;",
+
+  "race" : "generic",
+  "category" : "^orange;Extraction Device^reset;",
+  "price" : 25,
+  "objectType" : "container",
+  "hydrophobic" : false,
+
+  "inventoryIcon" : "primitiverockbreakericon.png",
+  "orientations" : [
+    {
+      "dualImage" : "primitiverockbreaker.png:<color>.<frame>",
+
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 1,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+  "animation" : "primitiverockbreaker.animation",
+  "animationParts" : {
+    "centrifuge" : "",
+    "centrifugefullbright" : "primitiverockbreaker.png"
+  },
+
+  "scripts" : [ "/shared/primitivecentrifuge.lua" ],
+
+  "scriptDelta" : 20,
+  "recipeGroup" : "centrifuge",
+  "openSounds" : [ "/sfx/objects/metalbox_open.ogg" ],
+  "closeSounds" : [ "/sfx/objects/metalbox_close.ogg" ],
+  "slotCount" : 25,
+  "uiConfig" : "/primitiverockbreaker/primitiverockbreaker.config",
+  "frameCooldown" : 67,
+  "autoCloseCooldown" : 3600,
+
+  "craftDelay": 7,
+  "itemChances": {
+    "rarest": 0.002,
+    "rare": 0.008,
+    "uncommon": 0.02,
+    "normal": 0.05,
+    "common": 0.07
+  },
+
+  "inputSlot": 1,
+
+  "centrifugeType" : "rocks"
+}

@@ -1,0 +1,57 @@
+{
+  "objectName" : "primitivecentrifuge",
+  "colonyTags" : [ "hive", "bees", "machines" ],
+  "printable" : false,
+  "rarity" : "common",
+  "description" : "This centrifuge performs extraction involving liquids. User must be present.",
+  "shortdescription" : "^cyan;Primitive Centrifuge^reset;",
+  "subtitle" : "Centrifuge",
+  "race" : "generic",
+  "category" : "^orange;Centrifuge^reset;",
+  "price" : 20,
+  "objectType" : "container",
+  "hydrophobic" : false,
+
+  "inventoryIcon" : "primitivecentrifugeicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "primitivecentrifuge.png:<color>.<frame>",
+
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.4,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+  "animation" : "primitivecentrifuge.animation",
+  "animationParts" : {
+    "centrifuge" : "primitivecentrifuge.png"
+
+  },
+
+  "scripts" : [ "/shared/primitivecentrifuge.lua" ],
+
+  "scriptDelta" : 50,
+  "recipeGroup" : "primitivecentrifuge",
+  "openSounds" : [ "/sfx/objects/locker_open.ogg" ],
+
+  "slotCount" : 10,
+  "uiConfig" : "/primitivecentrifuge/primitivecentrifuge.config",
+  "frameCooldown" : 67,
+  "autoCloseCooldown" : 3600,
+
+  "craftDelay" : 8,
+  "itemChances": {
+    "rarest": 0.008,
+    "rare": 0.03,
+    "uncommon": 0.09,
+    "normal": 0.2,
+    "common": 0.3
+  },
+
+  "inputSlot": 1,
+
+  "centrifugeType" : "liquid"
+}

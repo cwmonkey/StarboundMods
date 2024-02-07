@@ -1,0 +1,9 @@
+{
+  "input" : [
+   { "item" : "darkwoodmaterial", "count" : 20 },
+   { "item" : "climbingrope", "count" : 10 }
+  ],
+  "output" : { "item" : "primitivesifter", "count" : 1 },
+  "groups" : [ "plain", "objects", "all", "tools" ],
+  "duration" : 5
+}

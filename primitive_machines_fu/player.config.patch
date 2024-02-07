@@ -1,0 +1,7 @@
+[
+	{ "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "primitivemill" } },
+	{ "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "primitivecentrifuge" } },
+	{ "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "primitivesifter" } },
+	{ "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "primitiverockbreaker" } },
+	{ "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "primitiveliquidmixer" } }
+]

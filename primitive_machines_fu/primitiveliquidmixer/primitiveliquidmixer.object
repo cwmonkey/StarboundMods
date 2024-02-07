@@ -1,0 +1,47 @@
+{
+  "objectName" : "primitiveliquidmixer",
+  "colonyTags" : [ "science", "machines" ],
+  "printable" : false,
+  "rarity" : "common",
+  "description" : "This machine mixes liquids together in a controlled environment. User must be present.",
+  "shortdescription" : "^cyan;Primitive Liquid Mixer^reset;",
+
+  "race" : "generic",
+  "category" : "^orange;Extraction Device^reset;",
+  "price" : 20,
+  "objectType" : "container",
+  "hydrophobic" : false,
+
+  "inventoryIcon" : "primitiveliquidmixericon.png",
+  "orientations" : [
+    {
+      "dualImage" : "primitiveliquidmixer.png:<color>.<frame>",
+
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 1,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+  "animation" : "primitiveliquidmixer.animation",
+  "animationParts" : {
+    "centrifuge" : "primitiveliquidmixer.png"
+  },
+
+  "scripts" : [ "/primitiveliquidmixer/primitiveliquidmixer.lua" ],
+
+  "scriptDelta" : 20,
+  "recipeGroup" : "centrifuge",
+  "openSounds" : [ "/sfx/objects/metalbox_open.ogg" ],
+  "closeSounds" : [ "/sfx/objects/metalbox_close.ogg" ],
+  "slotCount" : 3,
+  "uiConfig" : "/primitiveliquidmixer/primitiveliquidmixer.config",
+  "frameCooldown" : 67,
+  "autoCloseCooldown" : 3600,
+
+  "inputSlot": 1,
+
+  "craftingSpeed" : 2
+}

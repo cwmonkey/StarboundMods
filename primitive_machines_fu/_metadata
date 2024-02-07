@@ -1,0 +1,12 @@
+{
+  "author" : "cwm",
+  "description" : "Adds slow, manual (must keep the window open to function), primitive versions of FrackinUnivers's Hand Mill (Extractor), Sifter, Rock Crusher, Centrifuge and Liquid Mixer.\n\nThese can be used to extract necessary resources from planets which would otherwise not have them. Good for changing your started planet to something less hospitable than the garden planet.",
+  "friendlyName" : "[FU] Primitive Machines",
+  "name" : "primitive_machines_fu",
+  "includes" : ["FrackinUniverse"],
+  "priority" : 9999,
+  "link" : "",
+  "steamContentId" : "",
+  "tags" : "",
+  "version" : "1.0"
+}
