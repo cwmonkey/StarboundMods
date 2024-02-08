@@ -1,0 +1,29 @@
+[
+	{
+		"op": "add",
+		"path": "/animatedParts/stateTypes/mechcraftingtable/states/off",
+		"value": {
+			"frames" : 1,
+			"cycle" : 1
+		}
+	},
+	{
+		"op": "add",
+		"path": "/animatedParts/parts/bg/partStates/mechcraftingtable/off",
+		"value": {
+			"properties" : {
+				"image" : "<partImage>:<color>.<frame>",
+				"fullbright" : false
+			}
+		}
+	},
+	{
+		"op": "add",
+		"path": "/animatedParts/parts/fg/partStates/mechcraftingtable/off",
+		"value": {
+			"properties" : {
+				"image" : "<partImage>:<color>.<frame>"
+			}
+		}
+	}
+]

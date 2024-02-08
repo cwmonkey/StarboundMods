@@ -1,0 +1,22 @@
+[
+	{
+		"op": "add",
+		"path": "/inputNodes",
+		"value": [ [0, 0] ]
+	},
+	{
+		"op": "add",
+		"path": "/scripts",
+		"value": ["/objects/wired/light/lightinteractive.lua"]
+	},
+	{
+		"op": "add",
+		"path": "/animationStateType",
+		"value": "mechcraftingtable"
+	},
+	{
+		"op": "add",
+		"path": "/animationStateOn",
+		"value": "idle"
+	}
+]
