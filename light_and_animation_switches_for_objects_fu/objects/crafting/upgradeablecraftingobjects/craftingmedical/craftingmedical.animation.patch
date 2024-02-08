@@ -1,0 +1,102 @@
+[
+	{
+		"op": "remove",
+		"path": "/lights"
+	},
+
+	{
+		"op": "remove",
+		"path": "/animatedParts/stateTypes/stage/states/craftingmedical/properties"
+	},
+	{
+		"op": "add",
+		"path": "/animatedParts/stateTypes/stage/states/craftingmedicalidle",
+		"value": {
+			"frames" : 1,
+			"cycle" : 1
+		}
+	},
+	{
+		"op": "add",
+		"path": "/animatedParts/parts/chassis/partStates/stage/craftingmedicalidle",
+		"value": {
+			"properties" : {
+				"image" : "craftingmedical.png:<color>.<frame>"
+			}
+		}
+	},
+	{
+		"op": "add",
+		"path": "/animatedParts/parts/fire/partStates/stage/craftingmedicalidle",
+		"value": {
+			"properties" : {
+				"image" : "craftingmedical.png:<color>.<frame>",
+				"fullbright" : false
+			}
+		}
+	},
+
+	{
+		"op": "remove",
+		"path": "/animatedParts/stateTypes/stage/states/craftingmedical2/properties"
+	},
+	{
+		"op": "add",
+		"path": "/animatedParts/stateTypes/stage/states/craftingmedical2idle",
+		"value": {
+			"frames" : 1,
+			"cycle" : 1
+		}
+	},
+	{
+		"op": "add",
+		"path": "/animatedParts/parts/chassis/partStates/stage/craftingmedical2idle",
+		"value": {
+			"properties" : {
+				"image" : "craftingmedical2.png:<color>.<frame>"
+			}
+		}
+	},
+	{
+		"op": "add",
+		"path": "/animatedParts/parts/fire/partStates/stage/craftingmedical2idle",
+		"value": {
+			"properties" : {
+				"image" : "craftingmedical2.png:<color>.<frame>",
+				"fullbright" : false
+			}
+		}
+	},
+
+	{
+		"op": "remove",
+		"path": "/animatedParts/stateTypes/stage/states/craftingmedical3/properties"
+	},
+	{
+		"op": "add",
+		"path": "/animatedParts/stateTypes/stage/states/craftingmedical3idle",
+		"value": {
+			"frames" : 1,
+			"cycle" : 1
+		}
+	},
+	{
+		"op": "add",
+		"path": "/animatedParts/parts/chassis/partStates/stage/craftingmedical3idle",
+		"value": {
+			"properties" : {
+				"image" : "craftingmedical3.png:<color>.<frame>"
+			}
+		}
+	},
+	{
+		"op": "add",
+		"path": "/animatedParts/parts/fire/partStates/stage/craftingmedical3idle",
+		"value": {
+			"properties" : {
+				"image" : "craftingmedical3.png:<color>.<frame>",
+				"fullbright" : false
+			}
+		}
+	}
+]

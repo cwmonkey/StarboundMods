@@ -1,0 +1,67 @@
+[
+	{
+		"op": "add",
+		"path": "/inputNodes",
+		"value": [ [0, 0] ]
+	},
+
+	{
+		"op": "add",
+		"path": "/scripts/-",
+		"value": "/objects/wired/light/lightinteractive.lua"
+	},
+
+	{
+		"op": "add",
+		"path": "/upgradeStages/-",
+		"value": {
+			"animationState" : "craftingmedicalidle"
+		}
+	},
+	{
+		"op": "add",
+		"path": "/upgradeStages/0/idleState",
+		"value": "craftingmedicalidle"
+	},
+	{
+		"op": "add",
+		"path": "/upgradeStages/0/lightColor",
+		"value": [40, 75, 112]
+	},
+
+	{
+		"op": "add",
+		"path": "/upgradeStages/-",
+		"value": {
+			"animationState" : "craftingmedical2idle"
+		}
+	},
+	{
+		"op": "add",
+		"path": "/upgradeStages/1/idleState",
+		"value": "craftingmedical2idle"
+	},
+	{
+		"op": "add",
+		"path": "/upgradeStages/1/lightColor",
+		"value": [38, 64, 38]
+	},
+
+	{
+		"op": "add",
+		"path": "/upgradeStages/-",
+		"value": {
+			"animationState" : "craftingmedical3idle"
+		}
+	},
+	{
+		"op": "add",
+		"path": "/upgradeStages/2/idleState",
+		"value": "craftingmedical3idle"
+	},
+	{
+		"op": "add",
+		"path": "/upgradeStages/2/lightColor",
+		"value": [38, 64, 38]
+	}
+]
