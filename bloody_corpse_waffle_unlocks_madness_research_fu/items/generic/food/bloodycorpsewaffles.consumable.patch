@@ -1,7 +1,0 @@
-[
-	{
-		"op" : "add",
-		"path" : "/pickupQuestTemplates",
-		"value" : ["madness_unlock"]
-	}
-]
