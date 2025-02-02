@@ -1,0 +1,11 @@
+[
+  {
+    "op": "replace",
+    "path": "/input",
+    "value": [
+      { "item" : "tritaniumbar", "count" : 10 },
+      { "item" : "icecrystal", "count" : 10 },
+      { "item" : "particlecore", "count" : 10 }
+    ]
+  }
+]
