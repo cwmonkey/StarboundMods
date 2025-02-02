@@ -1,0 +1,12 @@
+{
+  "author" : "cwm",
+  "description" : "Allows you to learn the Liquid Erchius Fuel recipe from the FrackinUniverse Chemistry research tree.",
+  "friendlyName" : "[FU] Learn Liquid Erchius Fuel From Chemistry Research",
+  "name" : "erchius_fuel_from_erchius_crystals_fu",
+  "includes" : ["FrackinUniverse"],
+  "priority" : 9999,
+  "link" : "",
+  "steamContentId" : "",
+  "tags" : "",
+  "version" : "1.0"
+}
