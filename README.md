@@ -1,9 +1,9 @@
 # StarboundMods
 My arbitrary mods for StarBound
 
-## One-World Challenge (OWC) mods
+## One-World Challenge (OWC) Mods
 
-### OWC Completed(?) mods
+### OWC Completed/In Progress Mods
 
 * **avikan_hunting_drop_low_bones** - Allows for low level Avikan progression on high level planets
 * **change_starter_planet_fu_urbanwasteland_large** - Changes the starting planet to a large Urban Wasteland
@@ -18,7 +18,7 @@ My arbitrary mods for StarBound
 * **siftable_golden_sand_fu** - Makes Golden Sand siftable (mainly to get Golden Wood)
 * **small_hadron_collider_fu** - A particle accelerator which can transform ores
 
-### OWC Planned mods
+### OWC Planned Mods
 
 * Some way to generate wooden logs if a planet has no trees. Emergency pixel printer? Furniture recycler?
 * Some way to get to the Precursor ruins to get Precursor mats. Precursor Data-Key recipe? Precursor teleporter recipe?
@@ -26,11 +26,11 @@ My arbitrary mods for StarBound
 * Possibly a way to unlock the FU Shoggoth mission
 * Possibly a way to get to the Science Outpost
 * Possibly a way to get to the Outpost
-* Possibly a way to make bees of all types
 * Possibly a way to unlock all quests on pad
-* A way to make all bees (via breeding or new frames)
+* A way to make all bees (via breeding and/or new frames)
+* Unlock required techs (by default or in first level tech unlock)
 
-## Misc mods:
+## Misc Mods:
 
 * **light_and_animation_switches_for_objects_fu** - Turn animations on various crafting stations on/off via input nodes. WIP
 
