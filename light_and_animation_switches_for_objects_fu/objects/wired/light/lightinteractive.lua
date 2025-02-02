@@ -1,11 +1,11 @@
 -- Make sure to run old hooks before ours
-oldInit = init
-oldUpdate = update
-oldOnNodeConnectionChange = onNodeConnectionChange
-oldOnInputNodeChange = onInputNodeChange
+light_and_animation_switches_for_objects_fuInit = init
+light_and_animation_switches_for_objects_fuUpdate = update
+light_and_animation_switches_for_objects_fuOnNodeConnectionChange = onNodeConnectionChange
+light_and_animation_switches_for_objects_fuOnInputNodeChange = onInputNodeChange
 
 function init()
-  if oldInit then oldInit() end
+  if light_and_animation_switches_for_objects_fuInit then light_and_animation_switches_for_objects_fuInit() end
 
   if storage.state == nil then storage.state = config.getParameter("defaultLightState", true) end
 
@@ -23,7 +23,7 @@ function init()
 end
 
 function update(dt)
-  if oldUpdate then oldUpdate(dt) end
+  if light_and_animation_switches_for_objects_fuUpdate then light_and_animation_switches_for_objects_fuUpdate(dt) end
 
   -- sb.logInfo(config.getParameter("objectName", "unknown"))
 
@@ -36,12 +36,12 @@ function update(dt)
 end
 
 function onNodeConnectionChange(args)
-  if oldOnNodeConnectionChange then oldOnNodeConnectionChange(args) end
+  if light_and_animation_switches_for_objects_fuOnNodeConnectionChange then light_and_animation_switches_for_objects_fuOnNodeConnectionChange(args) end
   processWireInput()
 end
 
 function onInputNodeChange(args)
-  if oldOnInputNodeChange then oldOnInputNodeChange(args) end
+  if light_and_animation_switches_for_objects_fuOnInputNodeChange then light_and_animation_switches_for_objects_fuOnInputNodeChange(args) end
   processWireInput()
 end
 
