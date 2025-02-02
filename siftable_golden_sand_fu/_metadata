@@ -1,0 +1,12 @@
+{
+  "author" : "cwm",
+  "description" : "Makes Golden Sand siftable.",
+  "friendlyName" : "[FU] Siftable Golden Sand",
+  "name" : "siftable_golden_sand_fu",
+  "includes" : ["FrackinUniverse"],
+  "priority" : 9999,
+  "link" : "",
+  "steamContentId" : "",
+  "tags" : "",
+  "version" : "1.0"
+}

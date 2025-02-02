@@ -1,0 +1,25 @@
+[
+	{
+		"op" : "add",
+		"path" : "/itemMapPowder/goldensand",
+		"value" : {
+			"fuamberchunk": ["rarest", 3],
+			"goldenwood": ["rarest", 3],
+			"lead": ["rarest", 3],
+			"beesilk": ["rarest", 3],
+			"biospore": ["rarest", 3],
+
+			"fu_nitrogen": ["rare", 3],
+			"volatilepowder": ["rare", 3],
+			"ff_silicon": ["rare", 3],
+			"fu_salt": ["rare", 3],
+
+			"liquidoil": ["uncommon", 3],
+			"iodine": ["uncommon", 3],
+
+			"fu_liquidhoney": ["common", 3],
+			"sand2": ["common", 3],
+			"sand": ["common", 3]
+		}
+	}
+]
