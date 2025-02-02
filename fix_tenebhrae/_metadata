@@ -1,0 +1,11 @@
+{
+  "author" : "cwm",
+  "description" : "Fix starting a game with Tenebhrae race.",
+  "friendlyName" : "[FU] Fix Tenebhrae Race",
+  "includes" : [],
+  "name" : "fix_tenebhrae",
+  "link" : "",
+  "steamContentId" : "",
+  "tags" : "",
+  "version" : "1.0"
+}

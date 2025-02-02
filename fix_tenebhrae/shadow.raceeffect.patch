@@ -1,0 +1,8 @@
+[
+  [
+    {
+      "op": "remove",
+      "path": "/species/shadow.raceeffect/envEffects/0/biomes/0"
+    }
+  ]
+]
