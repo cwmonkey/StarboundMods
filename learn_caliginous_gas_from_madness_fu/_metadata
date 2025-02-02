@@ -1,0 +1,12 @@
+{
+  "author" : "cwm",
+  "description" : "Allows you to learn the Caliginous Gas recipe from the FrackinUniverse Madness research tree.",
+  "friendlyName" : "[FU] Learn Caliginous Gas From Madness Research",
+  "name" : "learn_caliginous_gas_from_madness_fu",
+  "includes" : ["FrackinUniverse"],
+  "priority" : 9999,
+  "link" : "",
+  "steamContentId" : "",
+  "tags" : "",
+  "version" : "1.0"
+}

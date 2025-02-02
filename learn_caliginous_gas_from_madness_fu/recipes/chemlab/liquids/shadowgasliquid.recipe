@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "quietusore", "count" : 1 },
+    { "item" : "vialproto", "count" : 1 },
+    { "item" : "psionicenergy", "count" : 5 }
+  ],
+  "output" : {
+    "item" : "shadowgasliquid",
+    "count" : 5
+  },
+  "groups" : [ "chemlab2", "liquids", "all","nouncrafting","norecycling" ],
+  "duration" : 0.25
+}
