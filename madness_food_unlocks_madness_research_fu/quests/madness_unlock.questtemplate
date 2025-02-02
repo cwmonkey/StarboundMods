@@ -1,0 +1,21 @@
+{
+	"id" : "madness_unlock",
+	"mainQuest" : true,
+	"title" : "Food For Thought",
+	"prerequisites" : [ ],
+	"text" : "Ew... what IS this?!",
+	"completionText" : "This is gross, but it gives me some ideas...",
+	"portraits" : {
+		"questStarted" : "questGiver",
+		"questComplete" : "questReceiver"
+	},
+	"moneyRange" : [0, 0],
+	"missionUnlockedCinema" : "/cinematics/coordinates.cinematic",
+	"updateDelta" : 10,
+	"script" : "/quests/scripts/main.lua",
+	"scriptConfig" : {
+		"portraits" : {
+			"default" : "player"
+		}
+	}
+}

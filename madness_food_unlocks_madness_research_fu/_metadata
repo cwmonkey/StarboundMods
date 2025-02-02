@@ -1,0 +1,12 @@
+{
+  "author" : "cwm",
+  "description" : "Changes the Madness Research tree unlock prerequisite to recieving basic madness food consumables (like Bloody Corpse Waffle).",
+  "friendlyName" : "[FU] Madness Food Unlocks Madness Research",
+  "link" : "",
+  "name" : "madness_food_unlocks_madness_research_fu",
+  "includes" : ["FrackinUniverse"],
+  "priority" : 9999,
+  "steamContentId" : "",
+  "tags" : "Mechanics",
+  "version" : "1.0"
+}
