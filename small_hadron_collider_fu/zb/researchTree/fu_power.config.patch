@@ -1,0 +1,7 @@
+[
+	{
+		"op" : "add",
+		"path" : "/researchTree/fu_power/fission/unlocks/-",
+		"value" : "shc"
+	}
+]

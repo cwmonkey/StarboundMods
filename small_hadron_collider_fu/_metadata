@@ -1,0 +1,12 @@
+{
+  "author" : "cwm",
+  "description" : "The SHC allows you to transmute Solarium Stars into different ores with the power of science.",
+  "friendlyName" : "[FU] Small Hadron Collider (SHC)",
+  "name" : "small_hadron_collider_fu",
+  "includes" : ["FrackinUniverse", "light_and_animation_switches_for_objects_fu"],
+  "priority" : 9999,
+  "link" : "",
+  "steamContentId" : "",
+  "tags" : "",
+  "version" : "1.0"
+}

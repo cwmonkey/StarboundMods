@@ -1,0 +1,65 @@
+{
+  "objectName" : "shc",
+  "rarity" : "rare",
+  "colonyTags" : [ "science" ],
+  "description" : "A particle collider which can convert Solarium Stars into various ores. ^cyan;Requires ^orange;50W ^cyan;power.^reset;",
+  "shortdescription" : "^cyan;Small Hadron Collider^reset;",
+  "race" : "generic",
+  "category" : "^orange;Extraction Device^reset;",
+  "price" : 2000,
+  "objectType" : "container",
+  "printable" : false,
+  "scripts" : [ "/scripts/fupower.lua","/objects/power/shc/shc.lua", "/objects/wired/light/lightinteractive.lua" ],
+  "scriptDelta" : 180,
+  "openSounds" : [ "/sfx/objects/campfire_use.ogg" ],
+  "slotCount" : 20,
+  "uiConfig" : "/objects/power/shc/shc.config",
+  "frameCooldown" : 67,
+  "autoCloseCooldown" : 3600,
+
+  "lightColor" : [76, 125, 153],
+  "animation" : "/objects/power/shc/shc.animation",
+
+  "animationParts" : {
+    "shc" : "shc.png",
+    "shcfullbright" : "shcfullbright.png"
+  },
+  "animationPosition" : [0, 0],
+
+  "inventoryIcon" : "shc_inv.png",
+  "orientations" : [
+    {
+      "dualImage" : "shc.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "inputNodes" : [ [2, 2], [3, 3] ],
+  "outputNodes" : [ [2, 1] ],
+
+  "defaultLightInput" : 1,
+  "animationStateType" : "shcState",
+  "animationStateOn" : "idle",
+  "animationStateIdle" : "idle",
+
+  "powertype" : "input",
+  "isn_requiredPower" : 200, //this is multiplied by fu_timer, which is how long between crafts, so it averages to 50W
+  "fu_timer" : 0.5,
+
+  "inputsToOutputs": {
+    "simple" : [
+      { "name" : "corruptionore", "slot" : 2 },
+      { "name" : "moonstoneore", "slot" : 3 },
+      { "name" : "zerchesiumore", "slot" : 4 },
+      { "name" : "triangliumore", "slot" : 5 }
+    ],
+    "advanced" : [
+      { "name" : "effigiumore", "slot" : 8 },
+      { "name" : "pyreiteore", "slot" : 9 },
+      { "name" : "isogenore", "slot" : 10 },
+      { "name" : "densiniumore", "slot" : 11 }
+    ]
+  }
+}

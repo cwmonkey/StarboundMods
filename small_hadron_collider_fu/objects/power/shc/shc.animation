@@ -1,0 +1,91 @@
+{
+  "animatedParts" : {
+    "stateTypes" : {
+      "shcState" : {
+        "default" : "idle",
+        "states" : {
+          "off" : {
+            "frames" : 1
+          },
+          "idle" : {
+            "frames" : 1
+          },
+          "active" : {
+            "frames" : 8,
+            "cycle" : 0.4,
+            "mode" : "loop"
+          },
+          "activex" : {
+            "frames" : 8,
+            "cycle" : 0.4,
+            "mode" : "loop"
+          }
+        }
+      }
+    },
+
+    "parts" : {
+      "shc" : {
+        "properties" : {
+          "zLevel" : 1,
+          "centered" : false,
+          "fullbright" : true
+        },
+        "partStates" : {
+          "shcState" : {
+            "off" : {
+              "properties" : {
+                "image" : "<partImage>:<color>.idle"
+              }
+            },
+            "idle" : {
+              "properties" : {
+                "image" : "<partImage>:<color>.idle"
+              }
+            },
+            "active" : {
+              "properties" : {
+                "image" : "<partImage>:<color>.active<frame>"
+              }
+            },
+            "activex" : {
+              "properties" : {
+                "image" : "shcxithricite.png:<color>.active<frame>"
+              }
+            }
+          }
+        }
+      },
+      "shcfullbright" : {
+        "properties" : {
+          "zLevel" : 2,
+          "centered" : false
+        },
+        "partStates" : {
+          "shcState" : {
+            "off" : {
+              "properties" : {
+                "image" : "shc.png:<color>.idle"
+              }
+            },
+            "idle" : {
+              "properties" : {
+                "image" : "<partImage>:<color>.idle"
+              }
+            },
+            "active" : {
+              "properties" : {
+                "image" : "<partImage>:<color>.active<frame>"
+              }
+            },
+            "activex" : {
+              "properties" : {
+                "image" : "<partImage>:<color>.active<frame>"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
