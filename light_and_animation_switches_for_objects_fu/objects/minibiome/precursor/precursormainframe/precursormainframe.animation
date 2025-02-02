@@ -1,0 +1,70 @@
+{
+  "animatedParts" : {
+    "stateTypes" : {
+      "light" : {
+        "default" : "off",
+        "states" : {
+          "on" : {
+            "frames" : 13,
+            "animationCycle" : 2,
+            "mode" : "loop"
+          },
+          "off" : {
+            "frames" : 1
+          }
+        }
+      }
+    },
+
+    "parts" : {
+      "bg" : {
+        "properties" : {
+          "centered" : false
+        },
+
+        "partStates" : {
+          "light" : {
+            "on" : {
+              "properties" : {
+                "image" : "precursormainframe.png:<color>.<frame>",
+                "fullbright" : true
+              }
+            },
+
+            "off" : {
+              "properties" : {
+                "image" : "precursormainframe.png:<color>.<frame>"
+              }
+            }
+          }
+        }
+      },
+      "fg" : {
+        "properties" : {
+          "centered" : false
+        },
+
+        "partStates" : {
+          "light" : {
+            "on" : {
+              "properties" : {
+                "image" : "precursormainframelit.png:<color>.<frame>"
+              }
+            },
+
+            "off" : {
+              "properties" : {
+                "image" : "precursormainframe.png:<color>.<frame>"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+
+  "sounds" : {
+    "on" : [],
+    "off" : []
+  }
+}

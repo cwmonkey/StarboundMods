@@ -1,0 +1,37 @@
+[
+	{
+		"op": "add",
+		"path": "/inputNodes/-",
+		"value": [1, 2]
+	},
+	{
+		"op": "add",
+		"path": "/defaultLightInput",
+		"value": 1
+	},
+	{
+		"op": "add",
+		"path": "/lightColor",
+		"value": [0, 0, 0]
+	},
+	{
+		"op": "add",
+		"path": "/scripts/-",
+		"value": "/objects/wired/light/lightinteractive.lua"
+	},
+	{
+		"op": "add",
+		"path": "/animationStateType",
+		"value": "centrifuge"
+	},
+	{
+		"op": "add",
+		"path": "/animationStateIdle",
+		"value": "idle"
+	},
+	{
+		"op": "add",
+		"path": "/animationStateOn",
+		"value": "idle"
+	}
+]

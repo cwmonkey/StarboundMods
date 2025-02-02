@@ -1,0 +1,54 @@
+[
+	{
+		"op": "add",
+		"path": "/animatedParts/stateTypes/centrifuge/states/off",
+		"value": {
+			"frames" : 1
+		}
+	},
+	{
+		"op": "add",
+		"path": "/animatedParts/parts/centrifuge/partStates/centrifuge/off",
+		"value": {
+			"properties" : {
+				"image" : "<partImage>:<color>.idle",
+				"fullbright" : false
+			}
+		}
+	},
+	{
+		"op": "add",
+		"path": "/animatedParts/parts/centrifugefullbright/partStates/centrifuge/off",
+		"value": {
+			"properties" : {
+				"image" : "<partImage>:<color>.idle"
+			}
+		}
+	},
+	{
+		"op": "add",
+		"path": "/animatedParts/stateTypes/centrifuge/states/on",
+		"value": {
+			"frames" : 1
+		}
+	},
+	{
+		"op": "add",
+		"path": "/animatedParts/parts/centrifuge/partStates/centrifuge/on",
+		"value": {
+			"properties" : {
+				"image" : "<partImage>:<color>.idle",
+				"fullbright" : true
+			}
+		}
+	},
+	{
+		"op": "add",
+		"path": "/animatedParts/parts/centrifugefullbright/partStates/centrifuge/on",
+		"value": {
+			"properties" : {
+				"image" : "<partImage>:<color>.idle"
+			}
+		}
+	}
+]
