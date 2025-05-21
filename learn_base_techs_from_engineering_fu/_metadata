@@ -1,0 +1,12 @@
+{
+  "author" : "cwm",
+  "description" : "Allows you to learn the base techs without going through the cave tutorial.",
+  "friendlyName" : "[FU] Learn Base Techs From Engineering Research",
+  "name" : "learn_base_techs_from_engineering_fu",
+  "includes" : ["FrackinUniverse"],
+  "priority" : 9999,
+  "link" : "",
+  "steamContentId" : "",
+  "tags" : "",
+  "version" : "1.0"
+}

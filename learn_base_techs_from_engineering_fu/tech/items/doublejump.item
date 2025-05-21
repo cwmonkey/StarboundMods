@@ -1,0 +1,10 @@
+{
+  "itemName" : "doublejump_tech",
+  "rarity" : "rare",
+  "price" : 100,
+  "category" : "Tech",
+  "inventoryIcon" : "/tech/pulsejump.png",
+  "description" : "An additional jump that can be used while in the air!",
+  "shortdescription" : "Pulse Jump",
+  "consumeOnPickup" : true
+}

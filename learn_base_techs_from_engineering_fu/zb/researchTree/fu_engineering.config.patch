@@ -1,0 +1,33 @@
+[
+	{
+		"op" : "add",
+		"path" : "/researchTree/fu_engineering/tech1/unlocks/-",
+		"value" : "distortionsphere_tech"
+	},
+	{
+		"op" : "add",
+		"path" : "/researchTree/fu_engineering/tech1/unlocks/-",
+		"value" : "longjump0_tech"
+	},
+	{
+		"op" : "add",
+		"path" : "/researchTree/fu_engineering/tech1/unlocks/-",
+		"value" : "combatmaneuvering1_tech"
+	},
+
+	{
+		"op" : "add",
+		"path" : "/researchTree/fu_engineering/tech1/unlocks/-",
+		"value" : "distortionsphere2_tech"
+	},
+	{
+		"op" : "add",
+		"path" : "/researchTree/fu_engineering/tech1/unlocks/-",
+		"value" : "doublejump_tech"
+	},
+	{
+		"op" : "add",
+		"path" : "/researchTree/fu_engineering/tech1/unlocks/-",
+		"value" : "dash_tech"
+	}
+]

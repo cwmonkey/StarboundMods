@@ -1,0 +1,19 @@
+[
+	{
+		"op":"add",
+		"path":"/techs/2",
+		"value": {
+			"name" : "doublejump",
+			"recipe" : [
+				{ "name" : "techcard", "count" : 1 },
+				{ "name" : "researchvoxelsmall", "count" : 1 },
+				{ "name" : "corefragmentore", "count" : 4 },
+				{ "name" : "petalblue", "count" : 16 },
+				{ "name" : "fugeneticmaterial", "count" : 10 }
+			],
+			"prereq" : [	],
+			"recipeReq" : true,
+			"item" : "doublejump_tech"
+		}
+	}
+]
