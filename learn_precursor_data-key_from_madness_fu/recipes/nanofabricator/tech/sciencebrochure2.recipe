@@ -1,0 +1,16 @@
+{
+  "input" : [
+    { "item" : "particlecore", "count" : 1 },
+    { "item" : "solaricrystal", "count" : 5 },
+    { "item" : "stickofram", "count" : 4 },
+    { "item" : "aichip", "count" : 2 },
+    { "item" : "psionicenergy4", "count" : 200 },
+    { "item" : "carbonplate", "count" : 4 }
+  ],
+  "output" : {
+    "item" : "sciencebrochure2",
+    "count" : 1
+  },
+  "groups" : [ "nanofabricator1", "tech", "all" ],
+  "duration" : 2
+}

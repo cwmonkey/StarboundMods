@@ -1,0 +1,12 @@
+{
+  "author" : "cwm",
+  "description" : "Allows you to learn the Precursor Data-Key recipe from the FrackinUniverse Madness research tree.",
+  "friendlyName" : "[FU] Learn Precursor Data-Key Recipe From Madness Research",
+  "name" : "learn_precursor_data-key_from_madness_fu",
+  "includes" : ["FrackinUniverse"],
+  "priority" : 9999,
+  "link" : "",
+  "steamContentId" : "",
+  "tags" : "",
+  "version" : "1.0"
+}
