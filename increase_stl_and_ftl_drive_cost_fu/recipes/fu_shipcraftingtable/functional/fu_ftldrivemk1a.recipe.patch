@@ -5,9 +5,7 @@
     "value": [
       { "item" : "fu_stldrive", "count" : 1 },
       { "item" : "warpmanifold", "count" : 1 },
-      { "item" : "aetheriumalloy", "count" : 10 },
-      { "item" : "neutronium", "count" : 1 },
-      { "item" : "antineutronium", "count" : 1 }
+      { "item" : "aetheriumalloy", "count" : 10 }
     ]
   }
 ]

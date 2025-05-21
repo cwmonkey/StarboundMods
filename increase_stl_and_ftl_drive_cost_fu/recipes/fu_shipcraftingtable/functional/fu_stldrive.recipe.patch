@@ -3,9 +3,9 @@
     "op": "replace",
     "path": "/input",
     "value": [
-      { "item" : "fu_stldrive", "count" : 1 },
-      { "item" : "warpmanifold", "count" : 1 },
-      { "item" : "aetheriumalloy", "count" : 10 },
+      { "item" : "tritaniumbar", "count" : 10 },
+      { "item" : "icecrystal", "count" : 10 },
+      { "item" : "particlecore", "count" : 10 },
       { "item" : "neutronium", "count" : 1 },
       { "item" : "antineutronium", "count" : 1 }
     ]
