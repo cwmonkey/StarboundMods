@@ -1,11 +1,11 @@
 {
   "input" : [
     { "item" : "solidfuel", "count" : 1 },
-    { "item" : "vialproto", "count" : 1 }
+    { "item" : "vialproto", "count" : 2 }
   ],
   "output" : {
     "item" : "liquidfuel",
-    "count" : 1
+    "count" : 2
   },
   "groups" : [ "chemlab2", "liquids", "all","nouncrafting","norecycling" ],
   "duration" : 0.25
