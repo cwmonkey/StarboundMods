@@ -23,14 +23,12 @@ My arbitrary mods for StarBound
 ### OWC Planned Mods
 
 * Some way to generate wooden logs if a planet has no trees. Emergency pixel printer? Furniture recycler?
-* Some way to get to the Precursor ruins to get Precursor mats. Precursor Data-Key recipe? Precursor teleporter recipe?
 * Automatically choose rusted BYOS ship
 * Possibly a way to unlock the FU Shoggoth mission
 * Possibly a way to get to the Science Outpost
 * Possibly a way to get to the Outpost
-* Possibly a way to unlock all quests on pad
+* Add a way to unlock all quests on pad
 * A way to make all bees (via breeding and/or new frames)
-* Unlock required techs (by default or in first level tech unlock)
 
 ## Misc Mods:
 
