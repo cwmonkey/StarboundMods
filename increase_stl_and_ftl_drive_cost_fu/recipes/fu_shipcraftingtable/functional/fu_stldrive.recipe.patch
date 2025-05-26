@@ -6,8 +6,7 @@
       { "item" : "tritaniumbar", "count" : 10 },
       { "item" : "icecrystal", "count" : 10 },
       { "item" : "particlecore", "count" : 10 },
-      { "item" : "neutronium", "count" : 1 },
-      { "item" : "antineutronium", "count" : 1 }
+      { "item" : "neutronium", "count" : 1 }
     ]
   }
 ]
