@@ -21,8 +21,8 @@ function init()
 			player.giveBlueprint("dash_tech")
 		end
 
-		if not player.blueprintKnown("doublejump") then
-			player.giveBlueprint("doublejump")
+		if not player.blueprintKnown("doublejump_tech") then
+			player.giveBlueprint("doublejump_tech")
 		end
 
 		if not player.blueprintKnown("distortionsphere2_tech") then
