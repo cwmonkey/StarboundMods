@@ -1,0 +1,12 @@
+{
+  "author" : "cwm",
+  "description" : "Allows you to learn the Beeflower Seed recipe from the FrackinUniverse Argriculture research tree.",
+  "friendlyName" : "[FU] Learn Beeflower From Agriculture Research",
+  "name" : "learn_beeflower_from_agriculture_fu",
+  "includes" : ["FrackinUniverse"],
+  "priority" : 9999,
+  "link" : "",
+  "steamContentId" : "",
+  "tags" : "",
+  "version" : "1.0"
+}
