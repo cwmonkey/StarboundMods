@@ -1,0 +1,18 @@
+{
+  "frameGrid" : {
+    "size" : [41, 47],
+    "dimensions" : [4, 1],
+    "names" : [
+      [
+        "default.idle",
+        "default.hasbee",
+        "default.active1",
+        "default.active2"
+      ]
+    ]
+  },
+
+  "aliases" : {
+    "default.default" : "default.idle"
+  }
+}

@@ -1,0 +1,7 @@
+[
+	{
+		"op" : "add",
+		"path" : "/scripts/-",
+		"value" : "/zb/researchTree/researchTreeLearn_bee_transmogrifier.lua"
+	}
+]

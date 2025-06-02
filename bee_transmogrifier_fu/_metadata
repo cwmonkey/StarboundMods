@@ -1,0 +1,12 @@
+{
+  "author" : "cwm",
+  "description" : "Transmogrify bees from one type to another with science, etc.",
+  "friendlyName" : "[FU] Bee Transmogrifier",
+  "name" : "bee_transmogrifier_fu",
+  "includes" : ["FrackinUniverse"],
+  "priority" : 9999,
+  "link" : "",
+  "steamContentId" : "",
+  "tags" : "",
+  "version" : "1.0"
+}

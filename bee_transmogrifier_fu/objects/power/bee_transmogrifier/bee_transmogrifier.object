@@ -1,0 +1,48 @@
+{
+  "objectName" : "bee_transmogrifier",
+  "rarity" : "rare",
+  "colonyTags" : [ "science" ],
+  "description" : "Genetically modifies bee larva. ^cyan;Requires ^orange;25W ^cyan;power.^reset;",
+  "shortdescription" : "^cyan;Bee Transmogrifier^reset;",
+  "race" : "generic",
+  "category" : "^orange;Extraction Device^reset;",
+  "price" : 2000,
+  "objectType" : "container",
+  "printable" : false,
+  "scripts" : [ "/scripts/fupower.lua","/objects/power/bee_transmogrifier/bee_transmogrifier.lua" ],
+  "scriptDelta" : 180,
+  "openSounds" : [ "/sfx/objects/campfire_use.ogg" ],
+  "slotCount" : 3,
+  "uiConfig" : "/objects/power/bee_transmogrifier/bee_transmogrifier.config",
+  "frameCooldown" : 67,
+  "autoCloseCooldown" : 3600,
+
+  "lightColor" : [76, 125, 153],
+  "animation" : "/objects/power/bee_transmogrifier/bee_transmogrifier.animation",
+
+  "animationParts" : {
+    "bee_transmogrifier" : "bee_transmogrifier.png",
+    "bee_transmogrifierfullbright" : "bee_transmogrifierfullbright.png"
+  },
+  "animationPosition" : [0, 0],
+
+  "inventoryIcon" : "bee_transmogrifier_inv.png",
+  "orientations" : [
+    {
+      "dualImage" : "bee_transmogrifier.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "inputNodes" : [ [2, 2] ],
+
+  "animationStateType" : "bee_transmogrifierState",
+  "animationStateOn" : "idle",
+  "animationStateIdle" : "idle",
+
+  "powertype" : "input",
+  "isn_requiredPower" : 100, //this is multiplied by fu_timer, which is how long between crafts, so it averages to 50W
+  "fu_timer" : 0.5
+}

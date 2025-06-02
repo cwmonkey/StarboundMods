@@ -1,0 +1,81 @@
+{
+  "animatedParts" : {
+    "stateTypes" : {
+      "bee_transmogrifierState" : {
+        "default" : "idle",
+        "states" : {
+          "hasbee" : {
+            "frames" : 1
+          },
+          "idle" : {
+            "frames" : 1
+          },
+          "active" : {
+            "frames" : 2,
+            "cycle" : 0.4,
+            "mode" : "loop"
+          }
+        }
+      }
+    },
+
+    "parts" : {
+      "bee_transmogrifier" : {
+        "properties" : {
+          "zLevel" : 1,
+          "centered" : false,
+          "fullbright" : true
+        },
+        "partStates" : {
+          "bee_transmogrifierState" : {
+            "hasbee" : {
+              "properties" : {
+                "image" : "<partImage>:<color>.hasbee"
+              }
+            },
+            "idle" : {
+              "properties" : {
+                "image" : "<partImage>:<color>.idle"
+              }
+            },
+            "active" : {
+              "properties" : {
+                "image" : "<partImage>:<color>.active<frame>"
+              }
+            }
+          }
+        }
+      },
+      "bee_transmogrifierfullbright" : {
+        "properties" : {
+          "zLevel" : 2,
+          "centered" : false
+        },
+        "partStates" : {
+          "bee_transmogrifierState" : {
+            "hasbee" : {
+              "properties" : {
+                "image" : "bee_transmogrifier.png:<color>.hasbee"
+              }
+            },
+            "idle" : {
+              "properties" : {
+                "image" : "<partImage>:<color>.idle"
+              }
+            },
+            "active" : {
+              "properties" : {
+                "image" : "<partImage>:<color>.active<frame>"
+              }
+            },
+            "activex" : {
+              "properties" : {
+                "image" : "<partImage>:<color>.active<frame>"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

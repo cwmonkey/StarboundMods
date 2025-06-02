@@ -19,6 +19,7 @@ My arbitrary mods for StarBound
 * **primitive_machines_fu** - Adds slow, unpowered sifter, rock crusher, liquid mixer and centrifuge (so you can create materials which may be unavailable on planets)
 * **siftable_golden_sand_fu** - Makes Golden Sand siftable (mainly to get Golden Wood)
 * **small_hadron_collider_fu** - A particle accelerator which can transform ores
+* **bee_transmogrifier_fu** - Adds a way to make bees in the madness tree
 
 ### OWC Planned Mods
 
@@ -28,7 +29,6 @@ My arbitrary mods for StarBound
 * Possibly a way to get to the Science Outpost
 * Possibly a way to get to the Outpost
 * Add a way to unlock all quests on pad
-* A way to make all bees (via breeding and/or new frames)
 
 ## Misc Mods:
 
@@ -38,3 +38,4 @@ My arbitrary mods for StarBound
 
 * Primitive rock breaker says "powder" when opened
 * Make particle accelerator more unique
+* Larva to bee transmogrification
