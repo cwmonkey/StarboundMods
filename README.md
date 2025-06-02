@@ -5,7 +5,7 @@ My arbitrary mods for StarBound
 
 ### OWC Completed/In Progress Mods
 
-* **avikan_hunting_drop_low_bones** - Allows for low level Avikan progression on high level planets
+* **avikan_bones_extract_to_lower_tier_fu** - Allows for low level Avikan progression on high level planets
 * **change_starter_planet_fu_urbanwasteland_large** - Changes the starting planet to a large Urban Wasteland
 * **erchius_fuel_from_erchius_crystals_fu** - Adds Erchius Fuel recipe to chem lab
 * **increase_stl_and_ftl_drive_cost_fu** - Increases the costs of the FTL and STL drives for more challenge

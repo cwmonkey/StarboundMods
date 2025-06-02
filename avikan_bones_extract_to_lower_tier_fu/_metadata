@@ -1,0 +1,12 @@
+{
+  "author" : "cwm",
+  "description" : "Extracting Avikan hunting bones produces a bone of a lower tier.",
+  "friendlyName" : "[FU] Avikan Bones Extract to Lower Tier",
+  "link" : "",
+  "name" : "avikan_hunting_drop_low_bones",
+  "priority" : 9999,
+  "includes" : ["FrackinUniverse", "Elithian_Races_Mod"],
+  "steamContentId" : "",
+  "tags" : "Mechanics",
+  "version" : "1.0"
+}
