@@ -73,15 +73,19 @@ function update(dt)
 		local beeItem = world.containerItemAt(entity.id(), 0)
 		local reagentItem = world.containerItemAt(entity.id(), 1)
 
-		-- if debug then sb.logInfo("DEBUG: checkSlots") end
-
 		if not beeItem then
 			if debug then sb.logInfo("Error: No bee item.") end
-		elseif beeItemNameToStats[beeItem.name] == nil then
-			if debug then sb.logInfo("Error: Invalid bee item. beeItem.name=%s",beeItem.name) end
 		else
-			slotsValid = true
-			activeState = "hasbee"
+			local beeStats = beeItemNameToStats[beeItem.name]
+
+			-- if debug then sb.logInfo("DEBUG: checkSlots") end
+
+			if beeStats == nil and beeItem.name ~= "larva" then
+				if debug then sb.logInfo("Error: Invalid bee item. beeItem.name=%s",beeItem.name) end
+			else
+				slotsValid = true
+				activeState = "hasbee"
+			end
 		end
 
 		if (slotsValid) then
@@ -160,14 +164,15 @@ function update(dt)
 
 				if debug then sb.logInfo("DEBUG: Weighted random chose %s:%s", targetBee.beeType, targetBee.beeSubType) end
 
-				beeStats = beeItemNameToStats[beeItem.name]
 				targetBeeStats = beeItemNameToStats["bee_"..targetBee.beeType.."_queen"]
 
 				-- Check rivalry status
 
-				if beeData.rivals[targetBeeStats.beeType] == beeStats.beeType or beeData.rivals[beeStats.beeType] == targetBeeStats.beeType then
-					liklihood = liklihood * .1
-					if debug then sb.logInfo("DEBUG: Bees are rivals, liklihood reduced to %s%%", liklihood * 100) end
+				if beeStats ~= nil then
+					if beeData.rivals[targetBeeStats.beeType] == beeStats.beeType or beeData.rivals[beeStats.beeType] == targetBeeStats.beeType then
+						liklihood = liklihood * .1
+						if debug then sb.logInfo("DEBUG: Bees are rivals, liklihood reduced to %s%%", liklihood * 100) end
+					end
 				end
 
 				-- Check World Likeness
