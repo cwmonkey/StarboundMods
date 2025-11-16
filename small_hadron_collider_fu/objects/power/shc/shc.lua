@@ -61,17 +61,18 @@ function update(dt)
 		if outputOre and cSC then
 			if (power.getTotalEnergy()>=self.effectiveRequiredPower) and world.containerConsume(entity.id(), {name = "liquidwater", count = liquidwaterCountRequired, data={}}) and world.containerConsume(entity.id(), {name = "solariumstar", count = 1, data={}}) and (world.containerConsume(entity.id(), {name = "enricheduranium", count = 1, data={}}) or world.containerConsume(entity.id(), {name = "enrichedplutonium", count = 1, data={}})) and power.consume(self.effectiveRequiredPower) then
 				local activeState = "active"
+				local outputBarsCount=2
 
 				if outputType == "advanced" then
 					world.containerConsume(entity.id(), {name = "psionicenergy2", count = psionicenergy2CountRequired, data={}})
 					world.containerConsume(entity.id(), {name = "xithricitecrystal", count = 1, data={}})
 					activeState = "activex"
+					outputBarsCount=1
 				end
 
 				animator.setAnimationState("shcState", activeState)
 				object.setOutputNodeLevel(0,true)
 				storage.activeConsumption = true
-				local outputBarsCount=1
 
 				-- TODO: these ifs aren't needed
 				if type(storage.currentoutput)=="string" then--normal output is always a single item, not a table
