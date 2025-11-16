@@ -42,7 +42,7 @@
   "frameCooldown" : 67,
   "autoCloseCooldown" : 3600,
 
-  "craftDelay": 7,
+  "craftDelay": 1.5,
   "itemChances": {
     "rarest": 0.002,
     "rare": 0.008,
