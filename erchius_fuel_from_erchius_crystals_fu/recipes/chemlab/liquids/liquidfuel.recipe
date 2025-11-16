@@ -5,7 +5,7 @@
   ],
   "output" : {
     "item" : "liquidfuel",
-    "count" : 2
+    "count" : 3
   },
   "groups" : [ "chemlab2", "liquids", "all","nouncrafting","norecycling" ],
   "duration" : 0.25
