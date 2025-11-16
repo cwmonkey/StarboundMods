@@ -14,7 +14,6 @@
 		"path" : "/researchTree/fu_engineering/techs1/unlocks/-",
 		"value" : "combatmaneuvering1_tech"
 	},
-
 	{
 		"op" : "add",
 		"path" : "/researchTree/fu_engineering/techs1/unlocks/-",
@@ -28,6 +27,6 @@
 	{
 		"op" : "add",
 		"path" : "/researchTree/fu_engineering/techs1/unlocks/-",
-		"value" : "dash_tech"
+		"value" : "multijump_tech"
 	}
 ]

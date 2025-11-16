@@ -1,0 +1,10 @@
+{
+  "itemName" : "multijump_tech",
+  "rarity" : "rare",
+  "price" : 100,
+  "category" : "Tech",
+  "inventoryIcon" : "/tech/multijump.png",
+  "description" : "Gives you three smaller jumps you can use in the air!",
+  "shortdescription" : "Multi Jump",
+  "consumeOnPickup" : true
+}

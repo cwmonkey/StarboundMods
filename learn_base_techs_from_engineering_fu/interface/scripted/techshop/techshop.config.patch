@@ -15,5 +15,21 @@
 			"recipeReq" : true,
 			"item" : "doublejump_tech"
 		}
+	},
+	{
+		"op":"add",
+		"path":"/techs/3",
+		"value": {
+			"name" : "multijump",
+			"recipe" : [
+				{ "name" : "techcard", "count" : 5 },
+				{ "name" : "researchvoxel", "count" : 2 },
+				{ "name" : "powercore", "count" : 2 },
+				{ "name" : "morphiteore", "count" : 5 }
+			],
+			"prereq" : [ "doublejump" ],
+			"recipeReq" : true,
+			"item" : "multijump_tech"
+		}
 	}
 ]
