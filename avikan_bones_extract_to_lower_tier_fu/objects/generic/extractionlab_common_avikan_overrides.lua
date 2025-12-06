@@ -7,7 +7,8 @@ function getRecipes()
 		monsterscales = "monsterbone",
 		monsterclaws = "monsterscales",
 		monsterplate = "monsterclaws",
-		monsterspine = "monsterplate"
+		monsterspine = "monsterplate",
+		greatmonsterbone = "monsterspine"
 	}
 
 	for rkey, recipe in ipairs(recipes) do
