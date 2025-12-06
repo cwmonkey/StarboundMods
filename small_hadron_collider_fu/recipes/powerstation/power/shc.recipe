@@ -1,6 +1,6 @@
 {
   "input" : [
-    { "item" : "advancealloy", "count" : 12 },
+    { "item" : "densealloy", "count" : 12 },
     { "item" : "skathreinforcedglass", "count" : 8 },
     { "item" : "fuprocessor", "count" : 1 },
     { "item" : "electromagnet", "count" : 16 },
