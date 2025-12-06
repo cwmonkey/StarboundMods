@@ -1,0 +1,7 @@
+[
+	{
+		"op" : "add",
+		"path" : "/scripts/-",
+		"value" : "/objects/generic/extractionlab_common_avikan_overrides.lua"
+	}
+]
