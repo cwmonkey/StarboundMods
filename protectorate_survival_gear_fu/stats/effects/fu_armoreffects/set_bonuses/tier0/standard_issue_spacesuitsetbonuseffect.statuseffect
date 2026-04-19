@@ -1,0 +1,10 @@
+{
+	"name" : "standard_issue_spacesuitsetbonuseffect",
+	"defaultDuration" : 15,
+
+	"scripts" : [
+		"standard_issue_spacesuitsetbonuseffect.lua"
+	],
+	"scriptDelta": 60
+}
+

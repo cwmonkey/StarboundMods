@@ -6,6 +6,7 @@ My arbitrary mods for StarBound
 ### OWC Completed/In Progress Mods
 
 * **avikan_bones_extract_to_lower_tier_fu** - Allows for low level Avikan progression on high level planets
+* **bee_transmogrifier_fu** - Adds a way to make bees in the madness tree
 * **change_starter_planet_fu_urbanwasteland_large** - Changes the starting planet to a large Urban Wasteland
 * **erchius_fuel_from_erchius_crystals_fu** - Adds Erchius Fuel recipe to chem lab
 * **increase_stl_and_ftl_drive_cost_fu** - Increases the costs of the FTL and STL drives for more challenge
@@ -17,9 +18,9 @@ My arbitrary mods for StarBound
 * **minimum_6_threat** - Changes minimum threat of vanilla planets to 6
 * **minimum_6_threat_fu** - Changes minimum threat of FU planets to 6
 * **primitive_machines_fu** - Adds slow, unpowered sifter, rock crusher, liquid mixer and centrifuge (so you can create materials which may be unavailable on planets)
+* **protectorate_survival_gear_fu** - Provides an environmental suit and a space suit with powerful resistances (but no other stats) in your starting ship locker.
 * **siftable_golden_sand_fu** - Makes Golden Sand siftable (mainly to get Golden Wood)
 * **small_hadron_collider_fu** - A particle accelerator which can transform ores
-* **bee_transmogrifier_fu** - Adds a way to make bees in the madness tree
 
 ### OWC Planned Mods
 
@@ -38,4 +39,4 @@ My arbitrary mods for StarBound
 
 * Primitive rock breaker says "powder" when opened
 * Make particle accelerator more unique
-* Larva to bee transmogrification
+* Make more mods to choose different starting planets (Separate planet type and planet size so fewer mods needed)

@@ -1,0 +1,12 @@
+{
+  "author" : "cwm",
+  "description" : "Provides an environmental suit and a space suit with powerful resistances (but no other stats) in your starting ship locker.",
+  "friendlyName" : "[FU] Protectorate Survival Gear",
+  "name" : "protectorate_survival_gear_fu",
+  "includes" : ["FrackinUniverse"],
+  "priority" : 9999,
+  "link" : "",
+  "steamContentId" : "",
+  "tags" : "",
+  "version" : "1.0"
+}

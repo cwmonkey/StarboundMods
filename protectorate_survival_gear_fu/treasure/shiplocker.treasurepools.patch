@@ -1,0 +1,8 @@
+[
+  {"op": "add", "path": "/starterTreasure/0/1/fill/-", "value": {"item": [ "standard_issue_spacesuithead", 1]}},
+  {"op": "add", "path": "/starterTreasure/0/1/fill/-", "value": {"item": [ "standard_issue_spacesuitchest", 1]}},
+  {"op": "add", "path": "/starterTreasure/0/1/fill/-", "value": {"item": [ "standard_issue_spacesuitlegs", 1]}},
+  {"op": "add", "path": "/starterTreasure/0/1/fill/-", "value": {"item": [ "standard_issue_explorerhead", 1]}},
+  {"op": "add", "path": "/starterTreasure/0/1/fill/-", "value": {"item": [ "standard_issue_explorerchest", 1]}},
+  {"op": "add", "path": "/starterTreasure/0/1/fill/-", "value": {"item": [ "standard_issue_explorerlegs", 1]}}
+]

@@ -1,0 +1,8 @@
+{
+	"name" : "standard_issue_spacesuitsetbonus",
+	"defaultDuration" : 15,
+	"effectConfig":{"setName":"standard_issue_spacesuitset","setStatEffects":["standard_issue_spacesuitsetbonuseffect"]},
+
+	"scripts":["/stats/effects/fu_armoreffects/setbonuses_generichandler.lua"],
+	"scriptDelta": 60
+}
