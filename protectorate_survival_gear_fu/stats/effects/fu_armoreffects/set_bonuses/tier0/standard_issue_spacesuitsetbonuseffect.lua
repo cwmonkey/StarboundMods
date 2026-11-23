@@ -2,7 +2,7 @@ require "/stats/effects/fu_armoreffects/setbonuses_common.lua"
 setName="standard_issue_spacesuitset"
 
 armorBonus={
-	{stat = "maxBreath", amount = 72000}
+	{stat = "maxBreath", amount = 7200}
 }
 
 function init()

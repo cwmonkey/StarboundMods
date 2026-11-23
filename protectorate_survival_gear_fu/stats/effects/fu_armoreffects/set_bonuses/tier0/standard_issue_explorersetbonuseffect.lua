@@ -9,7 +9,9 @@ armorBonus={
 	{stat = "ffextremeradiationImmunity", amount = 1},
 	{stat = "ffextremeheatImmunity", amount = 1},
 	{stat = "ffextremecoldImmunity", amount = 1},
-	{stat = "maxBreath", amount = 36000}
+	{stat = "extremepressureProtection", amount = 1},
+	{stat = "biomeelectricImmunity", amount = 1},
+	{stat = "maxBreath", amount = 3600}
 }
 
 function init()

@@ -7,7 +7,7 @@
   "category" : "legwear",
   "description" : "^orange;Set Bonuses^reset;:
 ^yellow;^reset; +^green;15^reset;m Oxygen
-^yellow;^reset; ^cyan;Immune^reset;: Acid, Gas, Proto-Poison, Cosmic (Aether), Extreme Heat/Cold/Radiation",
+^yellow;^reset; ^cyan;Immune^reset;: Acid, Electric Storms, Gas, Proto-Poison, Cosmic (Aether), Extreme Heat/Cold/Radiation/Pressure",
   "shortdescription" : "Protectorate Survival Leg Armour",
   "tooltipKind" : "armor",
 
