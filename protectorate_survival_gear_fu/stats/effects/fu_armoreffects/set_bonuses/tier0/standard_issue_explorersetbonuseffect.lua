@@ -11,6 +11,7 @@ armorBonus={
 	{stat = "ffextremecoldImmunity", amount = 1},
 	{stat = "extremepressureProtection", amount = 1},
 	{stat = "biomeelectricImmunity", amount = 1},
+	{stat = "mentalProtection", amount = 0.8},
 	{stat = "maxBreath", amount = 3600}
 }
 
